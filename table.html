@@ -5,7 +5,28 @@
     <title>Table Styles</title>
 
     <style>
-
+        #customers{
+            border-collapse: collapse;
+            font-family: serif;
+        }
+        #customers td, #customers th{
+            /*border-style: solid;
+            border-width: 2px;
+            border-color: lightblue;*/
+            border: solid 2px lightsteelblue;
+            padding: 5px;
+            width: 25%;
+        }
+        #customers th{
+            background-color: aliceblue;
+            color: cornflowerblue;
+        }
+        #customers tr:nth-child(even){
+            background-color: aliceblue;
+        }
+        #customers tr:hover{
+            background-color: lightsteelblue;
+        }
     </style>
 
 </head>
@@ -28,7 +49,7 @@
         <td>Christina Berglund</td>
         <td>Sweden</td>
     </tr>
-    <tr>
+    <tr >
         <td>Centro comercial Moctezuma</td>
         <td>Francisco Chang</td>
         <td>Mexico</td>
@@ -48,7 +69,7 @@
         <td>Philip Cramer</td>
         <td>Germany</td>
     </tr>
-    <tr>
+    <tr >
         <td>Laughing Bacchus Winecellars</td>
         <td>Yoshi Tannamuri</td>
         <td>Canada</td>
@@ -68,6 +89,7 @@
         <td>Marie Bertrand</td>
         <td>France</td>
     </tr>
+
 </table>
 </body>
 </html>
