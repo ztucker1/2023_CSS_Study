@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horizontal Navigation bar</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin:auto;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightsteelblue;
+        }
+
+        li{
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        li a{
+            display: block;
+            color: floralwhite;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        li a:hover{
+            background-color: cornflowerblue;
+        }
+        .active{
+            background-color: lightskyblue;
+        }
+        .advertise{
+            float: right;
+            border-left: 1px solid white;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Who We Are</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Mailing List</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li class="advertise"><a href="#"> Give me money </a></li>
+
+
+
+    </ul>
+</div>
+</body>
+</html>

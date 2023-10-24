@@ -62,12 +62,52 @@
             margin: auto;
             padding-top: 30px;
         }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+        }
+
+        li{
+            float: left;
+            border-right: 1px solid white;
+        }
+
+        li a{
+            display: block;
+            color: floralwhite;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        li a:hover{
+            background-color: indianred;
+        }
+        .active{
+            background-color: darkred;
+        }
+        .advertise{
+            float: right;
+            border-left: 1px solid white;
+            border-right: 0px;
+            background-color: black;
+        }
     </style>
 
 </head>
 <body>
 <div class="container">
-    <div class="navbar">Navigation Goes Here</div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Mailing List</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li class="advertise"><a href="#"> Give me money </a></li>
+        </ul> </div>
     <div class="header">Header Goes Here</div>
     <div class="sliderPic">Slider Pictures Go Here</div>
     <div class="sliderNav">Slider Navigation Go Here</div>
